@@ -23,28 +23,39 @@
 }
 .second{
     background-color:white;
+    height:70px;
 
 }
-.navbar{
-    padding:0px 40px;
+/* .navbar{
+    padding:0px;
     display:flex;
+    
+} */
+.boat{
+    /* margin-bottom:50px;
+    margin-right:15px; */
+    width: 85px;
+    height: 35px;
 }
 .list li{
     list-style: none;
     font-size:16px;
-   margin-right:35px; 
+    margin-right:35px; 
+    margin-left:35px; 
 }
 .list{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    margin-left:40px; 
+    align-items: center;
+     
+    /* justify-content: space-evenly; */
 }
 .inputtype{
     border-radius:20px;
-    margin-top:10px;
+    /* margin-top:10px;
      padding:11px 35px; 
-    margin-left:300px;   
+    margin-left:300px;    */
 }
 .icon{
     margin-left:28px;
@@ -53,4 +64,193 @@
 .bag{
     margin-left:28px;
     margin-top:15px;  
+}
+.tws{
+  height:500px;
+  padding-left:300px;   
+    
+}
+.mainpart{
+    display:flex;
+    direction:row;
+    background-color:#EDFEFE
+    
+
+}
+.mainheading{
+    font-size:84px;
+    margin-left:25px;
+    margin-top:150px;
+}
+.pricing{
+    font-size:30px;
+    margin-left:50px;
+    
+}
+
+.dopes{
+    margin-left:20px;
+    display: flex;
+    direction:row;
+}
+.whiteash{
+    margin-left:20px
+}
+.red{
+    margin-left:20px;
+}
+.white{
+    margin-left:20px;
+}
+.one{
+background-color:#FAFAFA;
+border-radius:5px;
+position: relative;
+bottom: 22px;
+    
+    
+}
+.first{
+    font-size:15px;
+    margin-left:15px;
+
+}
+.firstprice{
+    font-size:15px;
+    margin-left:10px;
+}
+.onecart{
+    background-color:black;
+    padding:1px;
+    border-radius:15px;
+    margin-top:10px;
+}
+.two{
+    background-color:#FAFAFA;
+    border-radius:5px;
+    position: relative;
+    bottom: 22px;
+    
+}
+
+.second{
+font-size:15px;
+margin-left:25px;
+}
+ .secondcart{
+    background-color:black;
+     padding:1px;
+    border-radius:15px;
+     margin-top:10px;
+     margin-left:15px;
+} 
+.secondprice{
+font-size:15px;
+margin-left:22px; 
+}
+.three{
+    background-color:#FAFAFA;
+    border-radius:5px;
+    position: relative;
+    bottom: 22px;  
+}
+.third{
+font-size:15px;
+ margin-left:25px;  
+}
+.thirdcart{
+background-color:black;
+padding:1px;
+border-radius:15px;
+margin-top:10px;
+margin-left:15px;   
+}
+.thirdprice{
+font-size:15px;
+margin-left:22px; 
+}
+.four{
+background-color:#FAFAFA;
+border-radius:5px;
+position: relative;
+bottom: 22px;
+ }
+.fourth{
+font-size:15px;
+margin-left:25px;  
+}
+ .fourthcart{
+background-color: black;
+padding:1px;
+border-radius:15px;
+margin-top:10px;
+margin-left:15px;   
+ }
+.fourthprice{
+font-size:15px;
+margin-left:22px; 
+}
+.footer{
+    background-color: #EDFEFE;
+    height:300px;
+    width:1480px;
+} 
+
+ .social{
+  display: flex;
+ padding-left:600px; 
+ padding-top:90px;
+} 
+
+.facebook{
+    width:20px;
+    height:20px;
+    padding-right:10px;
+    padding-top:10px;
+    margin-left:5px;
+}
+.twitter{
+    width:20px;
+    height:20px;
+    padding-right:10px; 
+    padding-top:10px;  
+}
+.instagram{
+    width:20px;
+    height:20px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.youtube{
+    width:20px;
+    height:20px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.linkedin{
+ width:20px;
+height:20px;
+padding-right:10px;
+padding-top:10px;
+}
+.policy{
+padding-left:640px;
+font-size:12px;    
+}
+.imagine{
+    font-size:12px;
+    padding-left:580px;
+    padding-top:10px;
+    color:gray;
+}
+.last{
+    font-size:12px;
+    padding-left:435px;
+    padding-top:10px;
+    color:gray;
+}
+.atlast{
+    font-size:12px;
+    padding-left:520px;
+    color:gray;
 }
